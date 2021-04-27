@@ -1,5 +1,5 @@
 import unittest
-from Labs.module_1 import lab_1
+from Labs import lab_1
 
 
 class TestModule1(unittest.TestCase):
