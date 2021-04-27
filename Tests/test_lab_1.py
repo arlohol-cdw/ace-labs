@@ -6,9 +6,6 @@ class TestModule1(unittest.TestCase):
     """
     Series of tests to validate Lab 1 on basic operators for strings and integers
     """
-    def test_lab1_main(self):
-        result = lab_1.main()
-        self.assertEqual(result, True)
 
     def test_problem_1(self):
         result = lab_1.main()
