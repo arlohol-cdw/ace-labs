@@ -47,10 +47,10 @@ def main():
     # int3 should resolve to 2
     int3 = None
     # Problem 4
-    # int4 should resolve to 38
+    # int4 should resolve to 2.0
     int4 = None
     # Problem 5
-    # int5 should resolve to 583
+    # int5 should resolve to 0
     int5 = None
 
     # Strings
