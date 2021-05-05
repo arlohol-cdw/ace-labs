@@ -13,6 +13,6 @@
 5. Activate your virtual environment. The command may vary based on whether you're running Mac, Linux, or Windows.
     - Windows: ```.\venv\Scripts\activate```
     - MacOS/Linux: ```source venv/bin/activate```
-6. Install the modules required for these labs: ```pip install requirements.txt```
+6. Install the modules required for these labs: ```pip install -r requirements.txt```
 7. Run the following. If all tests pass, you have completed the setup and can proceed to Lab 1
    - ```python -m unittest Tests/test_setup.py -v```
