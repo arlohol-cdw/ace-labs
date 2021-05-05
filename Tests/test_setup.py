@@ -10,11 +10,6 @@ class TestSetup(unittest.TestCase):
     Test 1: Do all required files exist?
     """
 
-    def test_check_directory(self):
-        """Test that this is running from the ACE Labs directory"""
-        pwd = pathlib.Path.cwd()
-        self.assertTrue(pwd.name == "ACE Labs", True)
-
     def test_check_labs(self):
         """Test that 'Labs' folder exists"""
         pwd = pathlib.Path.cwd()
