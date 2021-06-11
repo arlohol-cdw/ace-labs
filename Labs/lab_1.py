@@ -12,13 +12,15 @@ Remediate all warnings to complete the lab.
 
 def main():
     """
+    REFERENCE MATERIAL: https://automatetheboringstuff.com/2e/chapter1/
     This exercise tests some basic operator exercises.
     INSTRUCTIONS:
     Each set of exercises contains a set of pre-set variables and a set of output variables. The
     input variables are identified by letters, and the outputs by numbers. For example, the string
     inputs are: stra, strb, strc, etc. while the string outputs are str1, str2, str3, etc.
 
-    All problems should be completed with a single operator.
+    All problems should be completed with a single operator or method
+        - E.g. +, -, *, /, //, **, upper, lower, count, split, real, numerator, denominator etc.
 
     Each of the outputs should be set to an expression using the inputs that sets the output
     variable to the desired value. For example:
@@ -33,7 +35,8 @@ def main():
     """
     # Integers
     # Complete Problems 1-5 using only the following variables. The answers should be integers.
-    # For example: int1 = inta + intb. Do not use hard-coded numbers in the solution.
+    # Do not use hard-coded numbers in the solution.
+    # For example, your should look like this: int1 = inta + intb. Not like this: int1 = 54 + 27
     inta = 54
     intb = 27
 
